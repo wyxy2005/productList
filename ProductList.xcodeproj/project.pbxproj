@@ -8,15 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		37B64C68C34814BB88336116 /* Pods_ProductList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C012C9C12291AD2953A4D71B /* Pods_ProductList.framework */; };
+		846F3F501EB226F600B6FCDF /* VEMCombo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F3F4F1EB226F600B6FCDF /* VEMCombo.swift */; };
+		846F3F521EB2270700B6FCDF /* ComboProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F3F511EB2270700B6FCDF /* ComboProduct.swift */; };
+		846F3F541EB2271400B6FCDF /* VEMProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F3F531EB2271400B6FCDF /* VEMProduct.swift */; };
+		84DD9A511EB249060026F86B /* VEMListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD9A501EB249060026F86B /* VEMListViewController.swift */; };
+		84DD9A551EB2495C0026F86B /* VendingMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD9A541EB2495C0026F86B /* VendingMachine.swift */; };
+		84DD9A571EB257AF0026F86B /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD9A561EB257AF0026F86B /* SelectionViewController.swift */; };
+		84DD9A591EB25A6B0026F86B /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD9A581EB25A6B0026F86B /* ProductListViewController.swift */; };
+		84DD9A5D1EB25C0B0026F86B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD9A5C1EB25C0B0026F86B /* Product.swift */; };
 		C629C5251EB1844F00F64D39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C629C5241EB1844F00F64D39 /* AppDelegate.swift */; };
 		C629C5271EB1844F00F64D39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C629C5261EB1844F00F64D39 /* ViewController.swift */; };
 		C629C52A1EB1844F00F64D39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C629C5281EB1844F00F64D39 /* Main.storyboard */; };
 		C629C52C1EB1844F00F64D39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C629C52B1EB1844F00F64D39 /* Assets.xcassets */; };
 		C629C52F1EB1844F00F64D39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C629C52D1EB1844F00F64D39 /* LaunchScreen.storyboard */; };
 		C629C53A1EB1844F00F64D39 /* ProductListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C629C5391EB1844F00F64D39 /* ProductListTests.swift */; };
-		C63972F71EB19AD3008CBA3D /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63972F61EB19AD3008CBA3D /* ListViewController.swift */; };
-		C63972F91EB19E72008CBA3D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63972F81EB19E72008CBA3D /* DetailViewController.swift */; };
-		C63972FB1EB1BBCF008CBA3D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63972FA1EB1BBCF008CBA3D /* Product.swift */; };
 		C63972FD1EB1BCC3008CBA3D /* ProductListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63972FC1EB1BCC3008CBA3D /* ProductListCell.swift */; };
 		C63973011EB21657008CBA3D /* combo_vem.json in Resources */ = {isa = PBXBuildFile; fileRef = C63972FE1EB21657008CBA3D /* combo_vem.json */; };
 		C63973021EB21657008CBA3D /* combo_products.json in Resources */ = {isa = PBXBuildFile; fileRef = C63972FF1EB21657008CBA3D /* combo_products.json */; };
@@ -34,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		846F3F4F1EB226F600B6FCDF /* VEMCombo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEMCombo.swift; sourceTree = "<group>"; };
+		846F3F511EB2270700B6FCDF /* ComboProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComboProduct.swift; sourceTree = "<group>"; };
+		846F3F531EB2271400B6FCDF /* VEMProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEMProduct.swift; sourceTree = "<group>"; };
+		84DD9A501EB249060026F86B /* VEMListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEMListViewController.swift; sourceTree = "<group>"; };
+		84DD9A541EB2495C0026F86B /* VendingMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VendingMachine.swift; sourceTree = "<group>"; };
+		84DD9A561EB257AF0026F86B /* SelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		84DD9A581EB25A6B0026F86B /* ProductListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		84DD9A5C1EB25C0B0026F86B /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		93CA0DBB4A47D42B37B1871C /* Pods-ProductList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProductList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProductList/Pods-ProductList.debug.xcconfig"; sourceTree = "<group>"; };
 		AE5DC798038437F1A10EB5E4 /* Pods-ProductList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProductList.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProductList/Pods-ProductList.release.xcconfig"; sourceTree = "<group>"; };
 		C012C9C12291AD2953A4D71B /* Pods_ProductList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProductList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,9 +60,6 @@
 		C629C5351EB1844F00F64D39 /* ProductListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProductListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C629C5391EB1844F00F64D39 /* ProductListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListTests.swift; sourceTree = "<group>"; };
 		C629C53B1EB1844F00F64D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C63972F61EB19AD3008CBA3D /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		C63972F81EB19E72008CBA3D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		C63972FA1EB1BBCF008CBA3D /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		C63972FC1EB1BCC3008CBA3D /* ProductListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListCell.swift; sourceTree = "<group>"; };
 		C63972FE1EB21657008CBA3D /* combo_vem.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = combo_vem.json; sourceTree = "<group>"; };
 		C63972FF1EB21657008CBA3D /* combo_products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = combo_products.json; sourceTree = "<group>"; };
@@ -84,6 +94,57 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		846F3F4A1EB2266C00B6FCDF /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				846F3F4E1EB2268D00B6FCDF /* Controller */,
+				846F3F4D1EB2268800B6FCDF /* Model */,
+				846F3F4C1EB2268400B6FCDF /* View */,
+			);
+			name = ProductList;
+			sourceTree = "<group>";
+		};
+		846F3F4B1EB2267500B6FCDF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C63972FE1EB21657008CBA3D /* combo_vem.json */,
+				C63972FF1EB21657008CBA3D /* combo_products.json */,
+				C63973001EB21657008CBA3D /* products_vem.json */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		846F3F4C1EB2268400B6FCDF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C63972FC1EB1BCC3008CBA3D /* ProductListCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		846F3F4D1EB2268800B6FCDF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				846F3F4F1EB226F600B6FCDF /* VEMCombo.swift */,
+				846F3F511EB2270700B6FCDF /* ComboProduct.swift */,
+				846F3F531EB2271400B6FCDF /* VEMProduct.swift */,
+				84DD9A541EB2495C0026F86B /* VendingMachine.swift */,
+				84DD9A5C1EB25C0B0026F86B /* Product.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		846F3F4E1EB2268D00B6FCDF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C629C5261EB1844F00F64D39 /* ViewController.swift */,
+				84DD9A501EB249060026F86B /* VEMListViewController.swift */,
+				84DD9A561EB257AF0026F86B /* SelectionViewController.swift */,
+				84DD9A581EB25A6B0026F86B /* ProductListViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		C629C5181EB1844F00F64D39 = {
 			isa = PBXGroup;
 			children = (
@@ -107,19 +168,13 @@
 		C629C5231EB1844F00F64D39 /* ProductList */ = {
 			isa = PBXGroup;
 			children = (
-				C63972FE1EB21657008CBA3D /* combo_vem.json */,
-				C63972FF1EB21657008CBA3D /* combo_products.json */,
-				C63973001EB21657008CBA3D /* products_vem.json */,
+				846F3F4B1EB2267500B6FCDF /* Resource */,
+				846F3F4A1EB2266C00B6FCDF /* ProductList */,
 				C629C5241EB1844F00F64D39 /* AppDelegate.swift */,
-				C629C5261EB1844F00F64D39 /* ViewController.swift */,
 				C629C5281EB1844F00F64D39 /* Main.storyboard */,
 				C629C52B1EB1844F00F64D39 /* Assets.xcassets */,
 				C629C52D1EB1844F00F64D39 /* LaunchScreen.storyboard */,
 				C629C5301EB1844F00F64D39 /* Info.plist */,
-				C63972F61EB19AD3008CBA3D /* ListViewController.swift */,
-				C63972F81EB19E72008CBA3D /* DetailViewController.swift */,
-				C63972FA1EB1BBCF008CBA3D /* Product.swift */,
-				C63972FC1EB1BCC3008CBA3D /* ProductListCell.swift */,
 			);
 			path = ProductList;
 			sourceTree = "<group>";
@@ -275,7 +330,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		B0D32190F0E660893654DEC0 /* [CP] Embed Pods Frameworks */ = {
@@ -300,11 +355,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846F3F501EB226F600B6FCDF /* VEMCombo.swift in Sources */,
 				C629C5271EB1844F00F64D39 /* ViewController.swift in Sources */,
+				84DD9A591EB25A6B0026F86B /* ProductListViewController.swift in Sources */,
+				84DD9A511EB249060026F86B /* VEMListViewController.swift in Sources */,
 				C629C5251EB1844F00F64D39 /* AppDelegate.swift in Sources */,
-				C63972FB1EB1BBCF008CBA3D /* Product.swift in Sources */,
-				C63972F71EB19AD3008CBA3D /* ListViewController.swift in Sources */,
-				C63972F91EB19E72008CBA3D /* DetailViewController.swift in Sources */,
+				84DD9A5D1EB25C0B0026F86B /* Product.swift in Sources */,
+				84DD9A571EB257AF0026F86B /* SelectionViewController.swift in Sources */,
+				846F3F541EB2271400B6FCDF /* VEMProduct.swift in Sources */,
+				84DD9A551EB2495C0026F86B /* VendingMachine.swift in Sources */,
+				846F3F521EB2270700B6FCDF /* ComboProduct.swift in Sources */,
 				C63972FD1EB1BCC3008CBA3D /* ProductListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

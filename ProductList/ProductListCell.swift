@@ -13,14 +13,19 @@ import SnapKit
 
 class ProductListCell: UITableViewCell {
 
+    var product:Product?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         
         
-        print("111")
+        
         
     }
 
-
+    func setup() {
+        
+    }
+    
 }

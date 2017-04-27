@@ -2,21 +2,19 @@
 //  Product.swift
 //  ProductList
 //
-//  Created by yeemee on 2017/4/27.
+//  Created by admin on 2017/4/28.
 //  Copyright © 2017年 yeemee. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class Product: NSObject {
-    var id:String?
-    var CNAME:String?
-    var vem_img:String?
-    var app_img:String?
+protocol Product {
     
-    var title:String? {
-        get {
-            return self.id! + self.CNAME!;
-        }
-    }
+    var appPrice:Double? { get }
+    
+    var appImageURL:String? { get }
+    
+    var vemPrice:Double? { get }
+    
+    var vemImageURL:String? { get }
 }
