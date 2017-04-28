@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import MJExtension
 
 class VendingMachine: NSObject {
     var vemId:String?

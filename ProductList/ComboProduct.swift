@@ -42,4 +42,10 @@ class ComboProduct: NSObject, Product {
             return self.VEM_IMG
         }
     }
+    
+    var name: String? {
+        get  {
+            return self.CNAME
+        }
+    }
 }

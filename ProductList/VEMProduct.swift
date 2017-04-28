@@ -41,4 +41,9 @@ class VEMProduct: NSObject, Product {
         }
     }
     
+    var name: String? {
+        get {
+            return self.CNAME
+        }
+    }
 }

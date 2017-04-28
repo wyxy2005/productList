@@ -8,7 +8,7 @@
 
 import UIKit
 
-class VEMCombo: NSObject {
+class VEMCombo: NSObject, Product {
     var VEM_ID:String?
     var COMBO_ID:String?
     var CNAME:String?
@@ -38,6 +38,12 @@ class VEMCombo: NSObject {
     var vemImageURL: String? {
         get {
             return self.VEM_IMG
+        }
+    }
+    
+    var name: String? {
+        get {
+            return self.CNAME
         }
     }
 }

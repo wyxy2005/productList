@@ -17,4 +17,7 @@ protocol Product {
     var vemPrice:Double? { get }
     
     var vemImageURL:String? { get }
+    
+    var name:String? { get }
+    
 }

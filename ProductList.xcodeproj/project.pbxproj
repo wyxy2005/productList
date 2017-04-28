@@ -17,7 +17,6 @@
 		84DD9A591EB25A6B0026F86B /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD9A581EB25A6B0026F86B /* ProductListViewController.swift */; };
 		84DD9A5D1EB25C0B0026F86B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD9A5C1EB25C0B0026F86B /* Product.swift */; };
 		C629C5251EB1844F00F64D39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C629C5241EB1844F00F64D39 /* AppDelegate.swift */; };
-		C629C5271EB1844F00F64D39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C629C5261EB1844F00F64D39 /* ViewController.swift */; };
 		C629C52A1EB1844F00F64D39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C629C5281EB1844F00F64D39 /* Main.storyboard */; };
 		C629C52C1EB1844F00F64D39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C629C52B1EB1844F00F64D39 /* Assets.xcassets */; };
 		C629C52F1EB1844F00F64D39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C629C52D1EB1844F00F64D39 /* LaunchScreen.storyboard */; };
@@ -26,6 +25,7 @@
 		C63973011EB21657008CBA3D /* combo_vem.json in Resources */ = {isa = PBXBuildFile; fileRef = C63972FE1EB21657008CBA3D /* combo_vem.json */; };
 		C63973021EB21657008CBA3D /* combo_products.json in Resources */ = {isa = PBXBuildFile; fileRef = C63972FF1EB21657008CBA3D /* combo_products.json */; };
 		C63973031EB21657008CBA3D /* products_vem.json in Resources */ = {isa = PBXBuildFile; fileRef = C63973001EB21657008CBA3D /* products_vem.json */; };
+		C63973051EB2DFA7008CBA3D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63973041EB2DFA7008CBA3D /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,6 @@
 		C012C9C12291AD2953A4D71B /* Pods_ProductList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProductList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C629C5211EB1844F00F64D39 /* ProductList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C629C5241EB1844F00F64D39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C629C5261EB1844F00F64D39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C629C5291EB1844F00F64D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C629C52B1EB1844F00F64D39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C629C52E1EB1844F00F64D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,6 +63,7 @@
 		C63972FE1EB21657008CBA3D /* combo_vem.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = combo_vem.json; sourceTree = "<group>"; };
 		C63972FF1EB21657008CBA3D /* combo_products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = combo_products.json; sourceTree = "<group>"; };
 		C63973001EB21657008CBA3D /* products_vem.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products_vem.json; sourceTree = "<group>"; };
+		C63973041EB2DFA7008CBA3D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,10 +137,10 @@
 		846F3F4E1EB2268D00B6FCDF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C629C5261EB1844F00F64D39 /* ViewController.swift */,
 				84DD9A501EB249060026F86B /* VEMListViewController.swift */,
 				84DD9A561EB257AF0026F86B /* SelectionViewController.swift */,
 				84DD9A581EB25A6B0026F86B /* ProductListViewController.swift */,
+				C63973041EB2DFA7008CBA3D /* DetailViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -355,8 +355,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C63973051EB2DFA7008CBA3D /* DetailViewController.swift in Sources */,
 				846F3F501EB226F600B6FCDF /* VEMCombo.swift in Sources */,
-				C629C5271EB1844F00F64D39 /* ViewController.swift in Sources */,
 				84DD9A591EB25A6B0026F86B /* ProductListViewController.swift in Sources */,
 				84DD9A511EB249060026F86B /* VEMListViewController.swift in Sources */,
 				C629C5251EB1844F00F64D39 /* AppDelegate.swift in Sources */,
@@ -509,6 +509,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 647WB9JJ66;
 				INFOPLIST_FILE = ProductList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yeemee.ProductList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -523,6 +524,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 647WB9JJ66;
 				INFOPLIST_FILE = ProductList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yeemee.ProductList;
 				PRODUCT_NAME = "$(TARGET_NAME)";

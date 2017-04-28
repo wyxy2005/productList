@@ -36,7 +36,7 @@ class SelectionViewController: UIViewController, UITableViewDelegate, UITableVie
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: identifier)
-        self.view .addSubview(tableView)
+        self.view.addSubview(tableView)
         
         tableView.snp.makeConstraints { (make) in
             make.edges.equalTo(self.view)
